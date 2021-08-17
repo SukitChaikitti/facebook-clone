@@ -1,0 +1,38 @@
+.login > div > img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.word__logo {
+    width: 150px;
+    
+}
+
+body {
+    background-color: white;
+}
+
+.login__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login > button {
+    border-radius: 15px;
+    background-color: #2e81f4;
+    width: 300px;
+    color: white;
+    transition: transform 100ms ease-out;
+}
+
+.login > button:hover {
+    background-color: gray;
+    color: white;
+    transform: scale(1.07);
+}
